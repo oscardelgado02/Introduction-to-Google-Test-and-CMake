@@ -1,0 +1,10 @@
+^D:\GITREPOSITORIES\LEARNING PROJECTS\INTRODUCTION-TO-GOOGLE-TEST-AND-CMAKE\GOOGLETEST\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\GITREPOSITORIES\LEARNING PROJECTS\INTRODUCTION-TO-GOOGLE-TEST-AND-CMAKE\BUILD\CMAKEFILES\7EC8B75C049C0F7FBB2E5141EC93AC95\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/Example.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

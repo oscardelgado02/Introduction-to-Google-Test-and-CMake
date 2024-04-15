@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\Example.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{893976E2-D14C-3ABC-988C-4214C713C91F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1C393EB3-1F9D-32EA-9A9E-BE8410CA878B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
