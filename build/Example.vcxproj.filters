@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\Example.cpp">
+    <ClCompile Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\src\Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\src\car.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\Example.hpp">
+    <ClInclude Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\src\Example.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\src\car.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

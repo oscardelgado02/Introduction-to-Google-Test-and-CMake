@@ -87,10 +87,10 @@
       <DisableSpecificWarnings>4251;4275;4702</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -99,6 +99,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ProgramDataBaseFileName>D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\lib\Debug\gmockpdb_debug_postfix-NOTFOUND.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
@@ -125,10 +126,10 @@
       <DisableSpecificWarnings>4251;4275;4702</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -139,6 +140,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ProgramDataBaseFileName>D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\lib\Release\gmock.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
@@ -165,10 +167,10 @@
       <DisableSpecificWarnings>4251;4275;4702</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -179,6 +181,7 @@
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ProgramDataBaseFileName>D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\lib\MinSizeRel\gmock.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
@@ -206,10 +209,10 @@
       <DisableSpecificWarnings>4251;4275;4702</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -218,6 +221,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ProgramDataBaseFileName>D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\lib\RelWithDebInfo\gmock.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
@@ -240,7 +244,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/googletest/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
+E:\CMake\bin\cmake.exe "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,12 +252,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;E:\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/googletest/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
+E:\CMake\bin\cmake.exe "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,12 +265,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;E:\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/googletest/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
+E:\CMake\bin\cmake.exe "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,12 +278,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;E:\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/googletest/googlemock/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
+E:\CMake\bin\cmake.exe "-SD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake" "-BD:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build" --check-stamp-file "D:/GitRepositories/Learning Projects/Introduction-to-Google-Test-and-CMake/build/googletest/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,7 +291,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.27\Modules\FindThreads.cmake;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock.pc.in;D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\googletest\googlemock\cmake\gmock_main.pc.in;E:\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;E:\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;E:\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;E:\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;E:\CMake\share\cmake-3.29\Modules\FindThreads.cmake;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GitRepositories\Learning Projects\Introduction-to-Google-Test-and-CMake\build\googletest\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
